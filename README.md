@@ -664,3 +664,194 @@ Attribute_Values --> Value_Description
 
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/radioandcheckbox.PNG?raw=true)
 
+##### Example:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Attribute Values </title>
+</head>
+<body>
+	<form>
+		Enter Mail: <input type="email" id="email" name="email"><br><br>
+		Enter mobile Number: <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+		Enter Date & Time: <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
+		Enter Time: <input type="time" id="appt" name="appt"><br><br>
+		Enter Number: <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+		Enter Password: <input type="password" id="pwd" name="pwd"><br><br>
+	</form>
+</body>
+</html>
+```
+##### Output:
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input_attr1.PNG?raw=true)
+
+##### Example:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Attribute Values </title>
+</head>
+<body>
+	<form>
+		Select Range: <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+		Enter url: <input type="url" id="homepage" name="homepage"><br><br>
+		Choose File: <input type="file" id="myfile" name="myfile"><br><br>
+		Select Image: <input type="image" src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/cat.jpg?				raw=true" alt="Problem with image" width="48" height="48"><br><br>
+		Select Color:<input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+		Search Here: <input type="search" id="gsearch" name="gsearch"><br><br>
+	</form>
+</body>
+</html>
+```
+
+##### Output:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Attribute Values </title>
+</head>
+<body>
+	<form>
+		Select Range: <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+		Enter url: <input type="url" id="homepage" name="homepage"><br><br>
+		Choose File: <input type="file" id="myfile" name="myfile"><br><br>
+		Select Image: <input type="image" src="https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/cat.jpg?				raw=true" alt="Problem with image" width="48" height="48"><br><br>
+		Select Color:<input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+		Search Here: <input type="search" id="gsearch" name="gsearch"><br><br>
+	</form>
+</body>
+</html>
+```
+##### Otput:
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input_attr2.PNG?raw=true)
+
+##### Select Element
+The ```html <select>``` element defines a drop-down list. It mostly used when you have to show numbers of items.
+
+##### Example
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HTML Form Select Attribute </title>
+</head>
+<body>
+<form>
+ <select name="Cars">
+ 	<option value="select"> select </option>
+    <option value="Audi"> Audi </option>
+    <option value="Mercedes"> Mercedes </option>
+    <option value="Lamborghini"> Lamborghini </option>
+ </select>
+  <input type="submit">
+</form>
+</body>
+</html>
+```
+##### Output
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/select.PNG?raw=true)
+
+##### 'Textarea' Element
+The ```html <textarea>``` element defines a multi-line input field.
+
+##### Example
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HTML Form Textarea Attribute </title>
+</head>
+<body>
+<h2>Textarea</h2>
+<p>The textarea element defines a multi-line input field.</p>
+<form action="action-page.php">
+  <textarea name="message" rows="5" cols="60"> This is a simple Example of Textarea. </textarea>
+  <br>
+  <input type="submit">
+</form>
+</body>
+</html>
+```
+##### Output:
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/testarea1.PNG?raw=true)
+
+##### Button' Element
+The ```html <button>``` element defines a clickable button.
+
+##### Example
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HTML Form Button Attribute </title>
+</head>
+<body>
+	<button type="button" onclick="alert('Hello World..!')">Click Me!</button>
+</body>
+</html>
+```
+##### Output
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/button.PNG?raw=true)
+
+##### Method' Attribute
+The method attribute specifies the HTTP method (GET or POST) to be used when submitting the form data.
+The GET is the default method when you submitting your form data.
+
+Syntax
+```html
+<form action="action-page.php" method="get">
+<form action="action-page.php" method="post">
+```
+
+##### Name Attribute
+The name attribute specifies the name of ```html <input>``` element. It is a good practice to use this attribute, and also good for SEO purpose.
+##### Example
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HTML Form Name Attribute </title>
+</head>
+<body>
+<form>
+  First name:
+  <input type="text" value="John"><br>
+  Last name:
+  <input type="text" name="lastname" value="Snow"><br>
+  <input type="submit" value="Submit">
+</form> 
+</body>
+</html>
+```
+##### Output
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/button_se.PNG?raw=true)
+
+##### Grouping Form Data with ```html <fieldset>
+The <fieldset> element is used to group related data in a form and the <legend> element defines a caption for the <fieldset>``` element.
+	
+##### Example
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HTML Form Fieldset and Legend Attributes </title>
+</head>
+<body>
+<form action="action-page.php">
+  <fieldset>
+    <legend>Personal information:</legend>
+    First name:
+    <input type="text" name="firstname" value="John">
+    Last name:
+    <input type="text" name="lastname" value="Snow">
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+</body>
+</html>
+```
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/field.PNG?raw=true)
