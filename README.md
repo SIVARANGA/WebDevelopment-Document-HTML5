@@ -523,22 +523,9 @@ An unordered list is a collection of related items that are listed with no speci
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/unorder2.PNG?raw=true)
 
 #### HTML form Tag:
-An HTML form is a section of a document which contains different fields like text fields, password fields, checkboxes, radio buttons, submit button, menus etc.
+An HTML form is a section of a document which contains different fields like **text fields, password fields, checkboxes, radio buttons, submit button, menus** etc.
 
-HTML Forms can be used where we want to collect some data from the site visitor. For example, in case of user registration you would like to collect information such as name, email address, Phone number, etc.
-
-##### HTML Form Structure
-The HTML ```html <form> tag defines a form that is used to collect user input. All the form elements should be written inside <form> and </form>```  tags.
-
-Syntax:
-```html
-<form>
-	........
-	
-	Form Elements
-	........
-</form>
-```
+HTML Forms can be used where we want to collect some data from the site visitor. For example, in case of user registration you would like to collect information such as **name, email address, Phone number,** etc.
 
 ##### HTML Forms Elements
 ```html
@@ -553,3 +540,127 @@ Syntax:
 * <optgroup>	It defines a group of related options in a drop-down list.
 * <label>	It defines a label for a field.
   ```
+
+##### HTML Form Structure
+The HTML ```html <form> tag defines a form that is used to collect user input. All the form elements should be written inside <form> and </form>```  tags.
+
+Syntax:
+```html
+<form>
+	........
+	
+	Form Elements
+	........
+</form>
+```
+#### HTML Forms Element
+##### 'Input' Element:
+The most important form element is the ```html <input> element. The <input>``` element can be displayed in several ways, depending on the type attribute.
+Syntax: ```html <input type="value">```
+##### HTML```html <input>``` type Attribute:
+
+Attribute_Values --> Value_Description
+* **button** --> Defines a clickable button (mostly used with a JavaScript to activate a script)
+* **checkbox** --> Defines a checkbox
+* **color** --> Defines a color picker
+* **date** --> Defines a date control (year, month, day (no time))
+* **datetime-local** --> Defines a date and time control (year, month, day, time (no timezone)
+* **email** --> Defines a field for an e-mail address
+* **file** --> Defines a file-select field and a "Browse" button (for file uploads)
+* **hidden** --> Defines a hidden input field
+* **image** -->	Defines an image as the submit button
+* **month** --> Defines a month and year control (no timezone)
+* **number** --> Defines a field for entering a number
+* **password** --> Defines a password field
+* **radio** --> Defines a radio button
+* **range** --> Defines a range control (like a slider control)
+* **reset** --> Defines a reset button
+* **search** --> Defines a text field for entering a search string
+* **submit** --> Defines a submit button
+* **tel** --> Defines a field for entering a telephone number
+* **text** --> Default. Defines a single-line text field
+* **time** --> Defines a control for entering a time (no timezone)
+* **url** -->	Defines a field for entering a URL
+* **week** --> Defines a week and year control (no timezone)
+
+##### Example1:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Tag Example</title>
+</head>
+<body>
+	User Name: <input type="text" name="username">
+</body>
+</html>
+```
+##### Output:
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input1.PNG?raw=true)
+
+##### Example2:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Tag Example</title>
+</head>
+<body>
+	User Name: <input type="text" name="username"><br>
+	<input type="submit" name="submit" value="Click Here"><br>
+	<input type="submit" name="button" value="cancel">
+</body>
+</html>
+```
+##### Output:
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input2.PNG?raw=true)
+
+##### Example3:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Tag Example</title>
+</head>
+<body>
+	User Name: <input type="text" name="username"><br>
+	Birthday:<input type="date" id="birthday" name="birthday"><br><br>
+	<input type="submit" name="submit"><br>
+	<input type="button" name="button" value="cancel">
+</body>
+</html>
+```
+##### Output:
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input3.PNG?raw=true)
+
+##### Checkbox & Radiobutton:
+##### Example:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HTML Form Input Type Radio Button & Checkbox </title>
+</head>
+<body>
+<form>
+	 <!-- Radio Button input type -->
+  <h4>This is Radio Button Example </h4>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+  <input type="submit">
+  <br> <br> <br> <!-- This is for new line access purpose -->
+   <!-- Checkbox input type -->
+  <h4>This is checkbox Example </h4>
+  <input type="checkbox" name="vehicle1" value="Bike">Samsung
+  <input type="checkbox" name="vehicle2" value="Car">Google Pixel<br><br>
+  <input type="submit">
+</form> 
+</body>
+</html>
+```
+
+##### Output:
+
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/radioandcheckbox.PNG?raw=true)
+
