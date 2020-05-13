@@ -162,7 +162,7 @@ en indicates english
 </body>
 </html>
 ```
-**Output**
+###### Output
 # This is Heading 1
 ## This is Heading 2
 ### This is Heading 3
@@ -186,7 +186,7 @@ The ```html <p> tag is used to define a paragraph in a document. HTML paragraph 
 </body>
 </html>
 ```
-```Output```
+##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/para.PNG?raw=true)
 
 #### HTML Anchor Tag
@@ -208,7 +208,7 @@ This tag is called anchor tag and anything between the opening ```html <a> tag a
 </body>
 </html>
 ```
-**Output**
+##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/anch.PNG?raw=true)
 
 #### HTML Image Tag
@@ -293,7 +293,7 @@ Tags of Table:
 </html>
 ```
 
-**Output**
+##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/tab1.PNG?raw=true)
 
 **imp: You can Apply CSS for tables based on your Requirement**
@@ -327,7 +327,7 @@ Tags of Table:
 </body>
 </html>
 ```
-**Output**
+##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/tab2.PNG?raw=true)
 
 **Example**
@@ -359,7 +359,7 @@ Tags of Table:
 </html>
 ```
 
-**Output**
+##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/tab3.PNG?raw=true)
 
 **You can Apply** 
@@ -410,7 +410,7 @@ You can set font face using face attribute but be aware that if the user viewing
 </body>
 </html>
 ```
-**Output**
+##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/font.PNG?raw=true)
 
 #### Ordered List in HTML
@@ -436,7 +436,7 @@ Ex.-For a numbered order list, the numbering starts at one and is incremented by
 </body>
 </html>
 ```
-**Output**
+##### Output
 
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/order.PNG?raw=true)
 
@@ -466,7 +466,7 @@ The type attribute is used to change the series type.
 </html>
 ```
 
-**Output**
+##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/order2.PNG?raw=true)
 
 
@@ -490,7 +490,7 @@ An unordered list is a collection of related items that are listed with no speci
 </body>
 </html>
 ```
-**Output**
+##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/unorder.PNG?raw=true)
 
 ##### Unorder List Type Attribute
@@ -518,7 +518,7 @@ An unordered list is a collection of related items that are listed with no speci
 </html>
 ```
 
-**Output**
+##### Output
 
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/unorder2.PNG?raw=true)
 
