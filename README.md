@@ -139,6 +139,29 @@ Unpaired tags do not have a closing tag. These are opened same as paired tags bu
 ```
 ### Basic HTML Tags
 
+##### Block level elements:
+* H1,h2,...,h6
+* Div
+* P
+* Semantic elements
+##### Semantic Elements
+* Header
+* Section
+* Article
+* Aside
+* Footer
+* Nav
+* Main
+##### Inline elements :
+* Span
+* Img
+* Form controls (iput, select, button, submit)
+* Navigation (a, href)
+* In bound (With in the page)
+* Outer bound (between pages)
+* Mail to (Email address)
+* Tel (Phone number)
+
 #### HTML Heading Tag
 Heading tag is used to give headings of particular sizes in a document. There are six different HTML heading tags, which gives different heading sizes and are defined by ```html <h1> to <h6> tags. <h1> gives the largest heading and <h6> gives the smallest one. So <h1> can be used for most important headings and <h6>``` can be used for least important one.
   
@@ -553,7 +576,7 @@ Syntax:
 	........
 </form>
 ```
-#### HTML Forms Element
+#### HTML Form Elements
 ##### 'Input' Element:
 The most important form element is the ```html <input> element. The <input>``` element can be displayed in several ways, depending on the type attribute.
 Syntax: ```html <input type="value">```
@@ -582,6 +605,20 @@ Attribute_Values --> Value_Description
 * **time** --> Defines a control for entering a time (no timezone)
 * **url** -->	Defines a field for entering a URL
 * **week** --> Defines a week and year control (no timezone)
+
+##### HTML Input Type
+Here is a list of some common HTML Form input types.
+
+Type	Description
+* **text: **	It defines a one-line text input field.
+* **password:**	Defines a one-line password input field.
+* **submit:**	It specifies a submit button to submit the form to server.
+* **reset:**	The reset button reset all values in the form.
+* **radio:**	A Radio button allows select one option.
+* **checkbox:**	Checkboxes allow selecting multiple options form.
+* **button:**	Defines a clickable button, which can perform a task on an event.
+* **file:**	It defines to select the file from device storage.
+* **image:**	It Defines a graphical submit button.
 
 ##### Example1:
 ```html
@@ -855,3 +892,15 @@ The <fieldset> element is used to group related data in a form and the <legend> 
 </html>
 ```
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/field.PNG?raw=true)
+
+
+##### placeholder	
+It gives a hint about the value to be entered in the ```html <input> ```element.
+##### required	
+It specifies that an input field must be filled out before submitting the form.
+##### step	
+It specifies the legal number intervals for an ```html <input>``` element.
+
+##### HTML Break
+The HTML ```html <br> tag or element breaks line in a paragraph. The <br>``` tag is an Unpaired tag which means that it has no end tag.
+
