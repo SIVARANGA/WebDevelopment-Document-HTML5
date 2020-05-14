@@ -49,7 +49,7 @@ HTML stands for **Hypertext Markup Language** Let's understand each word-
 
 
 #### Software Requirement:( In following Softwares we need any one required )
-* [Notepad]()
+* [Notepad](https://www.google.com/)
 * [Notepad++](https://notepad-plus-plus.org/downloads/)
 * [Edit-Plus](https://www.editplus.com/download.html)
 * [HTML-Kit](http://www.htmlkit.com/)
@@ -237,22 +237,20 @@ Note: By default, browsers always place a line break before and after the ```htm
 </html>
 ```
 #### Semantic elements
-
 ##### header
-The ```html <header> ``` element represents a container for introductory content or a set of navigational links.
+The ```html <header> element represents a container for introductory content or a set of navigational links.
 
-A ```html <header>``` element typically contains:
+A  <header>`` element typically contains:
 
-* one or more heading elements (<h1> - <h6>)
+* one or more heading elements (<h1> - <h6>)```
 * logo or icon
 * authorship information
 
-Note: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.
-
 ##### section
-The ```html <section>``` tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
-The ```html <section> ``` tag also supports the Global Attributes in HTML.
-The ```html <section> ``` tag also supports the Event Attributes in HTML.
+
+The ```html <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
+The  <section> tag also supports the Global Attributes in HTML.
+The  <section> ``` tag also supports the Event Attributes in HTML.
 
 ##### Example
 ```html
