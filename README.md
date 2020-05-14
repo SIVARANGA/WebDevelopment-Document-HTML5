@@ -207,13 +207,14 @@ The ```html <p> tag is used to define a paragraph in a document. HTML paragraph 
 ```
 ##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/para.PNG?raw=true)
----------
-##### div
-The ```html <div>``` tag defines a division or a section in an HTML document.
-The ```html <div>``` tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
-The ```html <div>``` tag is easily styled by using the class or id attribute.
-Any sort of content can be put inside the ```html <div>``` tag! 
-Note: By default, browsers always place a line break before and after the ```html <div>``` element.
+
+
+##### div Tag
+The ```html <div> tag defines a division or a section in an HTML document.
+The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+The <div> tag is easily styled by using the class or id attribute.
+Any sort of content can be put inside the <div> tag! 
+Note: By default, browsers always place a line break before and after the <div>``` element.
 
 ##### Example
 ```html
@@ -237,8 +238,14 @@ Note: By default, browsers always place a line break before and after the ```htm
 </body>
 </html>
 ```
-#### Semantic elements
+#### Semantic elements:
 
+##### header
+The ```html <header> element represents a container for introductory content or a set of navigational links.
+A  <header> element typically contains:
+* one or more heading elements(<h1> - <h6>)```
+* logo or icon
+* authorship information
 
 
 ##### section
@@ -289,7 +296,7 @@ Linus Torvalds is the Father of Linux.</p>
 </body>
 </html>
 ```
-##### aside:
+##### aside Tag:
 
 The ```html <aside>``` tag defines some content aside from the content it is placed in.
 
@@ -343,7 +350,7 @@ The HTML ```html <footer> ``` tag was introduced in HTML 5. It is used to define
 </body>
 </html>
 ```
-###### nav
+###### nav Tag:
 The ```html <nav> ``` tag defines a set of navigation links.
 Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links.
 Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.
@@ -368,7 +375,7 @@ Browsers, such as screen readers for disabled users, can use this element to det
 </body>
 </html>
 ```
-##### main
+##### main Tag:
 The ```html <main>``` tag specifies the main content of a document.
 
 The content inside the ```html <main>``` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
@@ -409,7 +416,7 @@ Note: There must not be more than one ```html <main> element in a document. The 
 </html>
 ```
 
-##### span
+##### span Tag:
 The ```html <span>``` tag is an inline container used to mark up a part of a text, or a part of a document.
 
 The ```html <span>``` tag provides no visual change by itself, but when it is marked, you can style it with CSS, or manipulate it with JavaScript.
