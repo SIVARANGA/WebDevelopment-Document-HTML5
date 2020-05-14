@@ -79,6 +79,7 @@ HTML stands for **Hypertext Markup Language** Let's understand each word-
 ```
 
 #### Explanation
+
 ```html
 <!DOCTYPE>: It defines the document type of HTML version.
 <html>: It is the root element that describes the web document. It is a paired tag, i.e., it has a closing tag also, </html>. Everything will be written inside these tags.
@@ -237,14 +238,8 @@ Note: By default, browsers always place a line break before and after the ```htm
 </html>
 ```
 #### Semantic elements
-##### header
-The ```html <header> element represents a container for introductory content or a set of navigational links.
 
-A  <header>`` element typically contains:
 
-* one or more heading elements (<h1> - <h6>)```
-* logo or icon
-* authorship information
 
 ##### section
 
