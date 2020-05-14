@@ -70,10 +70,10 @@ HTML stands for **Hypertext Markup Language** Let's understand each word-
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title><!-- Write title here --></title>
 </head>
 <body>
-
+<!-- Write the code here -->
 </body>
 </html> 
 ```
@@ -87,23 +87,11 @@ HTML stands for **Hypertext Markup Language** Let's understand each word-
 <title>: It is used inside <head> and it specifies the title of the document.
 <body>: It contains all the information which will be displayed in the webpage. If you want anything to be displayed on the webpage you have to write it within this tag.
 ```
-```html
-<!DOCTYPE html>
-<html>
-<head> 
-  <!-- In this Head tag you can mention page title name and author details (This is comment line) -->
-	<title>Here you can give title name for page </title>
-</head>
-<body>
-<!-- Write your code here  -->
-</body>
-</html> 
-```
 
 ### HTML Tags
 Every HTML tag has a special meaning to the browser. Each tag performs its own function and helps in creating the proper structure of a web page. You can't create ur own tags, all tags are predefined.
 
-**Syntax:**
+Syntax:
 ```html
 <tag> Content </tag>
 ```
@@ -145,6 +133,7 @@ Unpaired tags do not have a closing tag. These are opened same as paired tags bu
 * Div
 * P
 * Semantic elements
+
 ##### Semantic Elements
 * Header
 * Section
@@ -153,6 +142,7 @@ Unpaired tags do not have a closing tag. These are opened same as paired tags bu
 * Footer
 * Nav
 * Main
+
 ##### Inline elements :
 * Span
 * Img
@@ -167,6 +157,7 @@ Unpaired tags do not have a closing tag. These are opened same as paired tags bu
 Heading tag is used to give headings of particular sizes in a document. There are six different HTML heading tags, which gives different heading sizes and are defined by ```html <h1> to <h6> tags. <h1> gives the largest heading and <h6> gives the smallest one. So <h1> can be used for most important headings and <h6>``` can be used for least important one.
   
 ##### Example for Heading Tags 
+
 ```html
 <!DOCTYPE html>
 <html lang="en"> 
@@ -194,6 +185,7 @@ en indicates english
 The ```html <p> tag is used to define a paragraph in a document. HTML paragraph or HTML <p>``` tag gives the text inside it, a paragraph like finishing. It is a notable point that a browser itself add an empty line before and after a paragraph.
 
 ##### Example for Paragraph Tag
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -209,7 +201,8 @@ The ```html <p> tag is used to define a paragraph in a document. HTML paragraph 
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/para.PNG?raw=true)
 
 
-##### div Tag
+##### Div Tag
+
 The ```html <div> tag defines a division or a section in an HTML document.
 The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
 The <div> tag is easily styled by using the class or id attribute.
@@ -217,6 +210,7 @@ Any sort of content can be put inside the <div> tag!
 Note: By default, browsers always place a line break before and after the <div>``` element.
 
 ##### Example
+
 ```html
 <html>
 <head>
@@ -240,7 +234,8 @@ Note: By default, browsers always place a line break before and after the <div>`
 ```
 #### Semantic elements:
 
-##### header
+##### Header
+
 The  header element represents a container for introductory content or a set of navigational links.
 A header element typically contains:
 * one or more heading elements ```html <h1> - <h6>```
@@ -248,13 +243,14 @@ A header element typically contains:
 * authorship information
 Note: You can have several ```html <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header>``` element.
 
-##### section
+##### Section
 
 The ```html <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
 The  <section> tag also supports the Global Attributes in HTML.
 The  <section> ``` tag also supports the Event Attributes in HTML.
 
 ##### Example
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -276,9 +272,12 @@ The  <section> ``` tag also supports the Event Attributes in HTML.
 </html>
 ```
 ##### HTML Article
+
 The HTML ```html <article>``` tag defines an independent self-contained content in a document. It usually works like a normal div, but is given special name and used as an area where specifically articles should be written.
 
 This tag is usually used on blog post, Forum post, comments etc.
+
+##### Example
 
 ```html
 <!DOCTYPE html>
@@ -296,7 +295,7 @@ Linus Torvalds is the Father of Linux.</p>
 </body>
 </html>
 ```
-##### aside Tag:
+##### Aside Tag:
 
 The ```html <aside>``` tag defines some content aside from the content it is placed in.
 
@@ -307,6 +306,7 @@ Tip: The <aside> content is often placed as a sidebar in a document.
 Note: The <aside> element does not render as anything special in a browser. However, you can use CSS to style the <aside> element (see example below).
 
 ##### Example:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -350,12 +350,13 @@ The HTML ```html <footer> ``` tag was introduced in HTML 5. It is used to define
 </body>
 </html>
 ```
-###### nav Tag:
+###### Nav Tag:
 The ```html <nav> ``` tag defines a set of navigation links.
 Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links.
 Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.
 
 ##### Example
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -375,7 +376,7 @@ Browsers, such as screen readers for disabled users, can use this element to det
 </body>
 </html>
 ```
-##### main Tag:
+##### Main Tag:
 The ```html <main>``` tag specifies the main content of a document.
 
 The content inside the ```html <main>``` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
@@ -416,11 +417,12 @@ Note: There must not be more than one ```html <main> element in a document. The 
 </html>
 ```
 
-##### span Tag:
+##### Span Tag:
 The ```html <span>``` tag is an inline container used to mark up a part of a text, or a part of a document.
 
 The ```html <span>``` tag provides no visual change by itself, but when it is marked, you can style it with CSS, or manipulate it with JavaScript.
 
+##### Example
 ```html
 <!DOCTYPE html>
 <html>
@@ -436,13 +438,14 @@ The ```html <span>``` tag provides no visual change by itself, but when it is ma
 
 #### Navigation(a,href)
 
-###### inbound 
+###### Inbound 
 A navigation bar needs standard HTML as a base.
 
 In our examples we will build the navigation bar from a standard HTML list.
 There are two ways to create a horizontal navigation bar. Using inline or floating list items.
 A navigation bar is basically a list of links, so using the <ul> and <li> elements makes perfect sense:
-	
+
+##### Example	
 ```html
 <!DOCTYPE html>
 <html>
@@ -461,7 +464,7 @@ A navigation bar is basically a list of links, so using the <ul> and <li> elemen
 </html>
 ```
 
-###### outer bound
+###### Outer bound
 
 
 #### HTML Anchor Tag
@@ -528,7 +531,7 @@ An HTML table is defined with the ```html <table> ``` tag. A table is used to di
 
 Tables are also used in websites to present any data to the user. It looks really neat and also everyone prefers tabular form of data nowadays. The HTML tables allows to arrange data like text, images, etc. into rows and columns.
 
-Tags of Table:
+##### Tags of Table:
 ```html
 <table></table> <!-- Table Main Tag -->
 	<thead></thead> <!--Table Header tags -->
@@ -573,7 +576,7 @@ Tags of Table:
 
 **imp: You can Apply CSS for tables based on your Requirement**
 
-**Example2**
+##### Example2
 ```html
 <!DOCTYPE html>
 <html>
@@ -605,7 +608,8 @@ Tags of Table:
 ##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/tab2.PNG?raw=true)
 
-**Example**
+##### Example
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -669,7 +673,7 @@ We can set font size using size attribute.
 ##### Font Face
 You can set font face using face attribute but be aware that if the user viewing the page doesn't have the font installed, they will not be able to see it. Instead user will see the default font style.
 
-**Example**
+##### Example
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -723,7 +727,8 @@ The type attribute is used to change the series type.
 * type="I"	The list items will be numbered with uppercase roman numbers.
 * type="i"	The list items will be numbered with lowercase roman numbers.
 
-**Example:**
+##### Example:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -1147,11 +1152,11 @@ The <fieldset> element is used to group related data in a form and the <legend> 
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/field.PNG?raw=true)
 
 
-##### placeholder	
+##### Placeholder	
 It gives a hint about the value to be entered in the ```html <input> ```element.
-##### required	
+##### Required	
 It specifies that an input field must be filled out before submitting the form.
-##### step	
+##### Step	
 It specifies the legal number intervals for an ```html <input>``` element.
 
 ##### HTML Break
@@ -1182,8 +1187,8 @@ Value --> Description
 get  --> Default. Appends the form-data to the URL in name/value pairs: URL?name=value&name=value
 post --> Sends the form-data as an HTTP post transaction
 
-##### id,required
-###### id
+##### Id,Required
+###### Id
 The HTML id attribute is used to specify a unique id for an HTML element (the value must be unique within the HTML document).
 The id attribute is used by CSS or JavaScript to perform certain tasks for the element with the specific id value.
 
@@ -1193,7 +1198,7 @@ Tip: The id attribute can be used on any HTML element.
 Note: The id value is case-sensitive.
 Note: The id value must contain at least one character, and must not contain whitespace (spaces, tabs, etc.).
 
-##### required
+##### Required
 The required attribute is a boolean attribute.
 When present, it specifies that an input field must be filled out before submitting the form.
 Note: The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
