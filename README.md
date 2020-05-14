@@ -1156,3 +1156,46 @@ It specifies the legal number intervals for an ```html <input>``` element.
 ##### HTML Break
 The HTML ```html <br> tag or element breaks line in a paragraph. The <br>``` tag is an Unpaired tag which means that it has no end tag.
 
+#### Form Method Attributes:
+
+The method attribute specifies how to send form-data (the form-data is sent to the page specified in the action attribute).
+
+The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post").
+
+##### Notes on GET:
+
+* Appends form-data into the URL in name/value pairs
+* The length of a URL is limited (about 3000 characters)
+* Never use GET to send sensitive data! (will be visible in the URL)
+* Useful for form submissions where a user wants to bookmark the result
+* GET is better for non-secure data, like query strings in Google
+
+##### Notes on POST:
+
+* Appends form-data inside the body of the HTTP request (data is not shown in URL)
+* Has no size limitations
+* Form submissions with POST cannot be bookmarked
+
+##### Attribute Values
+Value --> Description
+get  --> Default. Appends the form-data to the URL in name/value pairs: URL?name=value&name=value
+post --> Sends the form-data as an HTTP post transaction
+
+##### id,required
+###### id
+The HTML id attribute is used to specify a unique id for an HTML element (the value must be unique within the HTML document).
+The id attribute is used by CSS or JavaScript to perform certain tasks for the element with the specific id value.
+
+In CSS, to select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+Tip: The id attribute can be used on any HTML element.
+Note: The id value is case-sensitive.
+Note: The id value must contain at least one character, and must not contain whitespace (spaces, tabs, etc.).
+
+##### required
+The required attribute is a boolean attribute.
+When present, it specifies that an input field must be filled out before submitting the form.
+Note: The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+
+Syntax
+```html <input required>```
