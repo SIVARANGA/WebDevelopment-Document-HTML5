@@ -211,7 +211,243 @@ The ```html <p> tag is used to define a paragraph in a document. HTML paragraph 
 ```
 ##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/para.PNG?raw=true)
+---------
+##### div
+The ```html <div>``` tag defines a division or a section in an HTML document.
+The ```html <div>``` tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.
+The ```html <div>``` tag is easily styled by using the class or id attribute.
+Any sort of content can be put inside the ```html <div>``` tag! 
+Note: By default, browsers always place a line break before and after the ```html <div>``` element.
 
+##### Example
+```html
+<html>
+<head>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div>
+
+</body>
+</html>
+```
+#### Semantic elements
+
+##### header
+The ```html <header> ``` element represents a container for introductory content or a set of navigational links.
+
+A ```html <header>``` element typically contains:
+
+* one or more heading elements (<h1> - <h6>)
+* logo or icon
+* authorship information
+
+Note: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.
+
+##### section
+The ```html <section>``` tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document.
+The ```html <section> ``` tag also supports the Global Attributes in HTML.
+The ```html <section> ``` tag also supports the Event Attributes in HTML.
+
+##### Example
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The section element</h1>
+
+<section>
+  <h2>WWF</h2>
+  <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+</section>
+
+<section>
+  <h2>WWF's Panda symbol</h2>
+  <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+</section>
+
+</body>
+</html>
+```
+##### HTML Article
+The HTML ```html <article>``` tag defines an independent self-contained content in a document. It usually works like a normal div, but is given special name and used as an area where specifically articles should be written.
+
+This tag is usually used on blog post, Forum post, comments etc.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> HTML Article Tag </title>
+</head>
+<body>
+<article>  
+<h2>Linux OS</h2>
+<i>(Operating System) </i>
+<p>Linux is a free open-source Operating System, built around the Linux Kernel.
+Linus Torvalds is the Father of Linux.</p>  
+</article>
+</body>
+</html>
+```
+##### aside:
+
+The ```html <aside>``` tag defines some content aside from the content it is placed in.
+
+The aside content should be indirectly related to the surrounding content.
+
+Tip: The <aside> content is often placed as a sidebar in a document.
+
+Note: The <aside> element does not render as anything special in a browser. However, you can use CSS to style the <aside> element (see example below).
+
+##### Example:
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The aside element</h1>
+
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+
+</body>
+</html>
+```
+
+##### HTML Footer Tag
+The HTML ```html <footer> ``` tag was introduced in HTML 5. It is used to define a footer for a document or a section. It is specifically used for defining footer at the bottom of the webpage.
+
+##### A Footer element contains:
+* Copyright information
+* Contact information
+* Related documents
+* Back to top links
+* Sitemap
+
+##### Example
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> HTML Footer Tag </title>
+</head>
+<body>
+<footer>
+  <p>Posted by: Bill Gates</p>
+  <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+</footer>
+</body>
+</html>
+```
+###### nav
+The ```html <nav> ``` tag defines a set of navigation links.
+Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links.
+Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.
+
+##### Example
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The nav element</h1>
+
+<p>The nav element defines a set of navigation links:</p>
+
+<nav>
+<a href="https://www.google.com/">Google</a> |
+<a href="https://www.google.com/intl/en-GB/gmail/about/#/">G-Mail</a> |
+<a href="https://www.w3schools.com/html/default.asp">HTML</a> |
+<a href="https://www.w3schools.com/python/default.asp">Python</a>
+</nav>
+
+</body>
+</html>
+```
+##### main
+The ```html <main>``` tag specifies the main content of a document.
+
+The content inside the ```html <main>``` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+
+Note: There must not be more than one ```html <main> element in a document. The <main> element must NOT be a descendant of an <article>, <aside>, <footer>, <header>, or <nav>``` element.
+
+##### Example
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The main element</h1>
+
+<main>
+  <h2>Web Browsers</h2>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h3>Google Chrome</h3>
+    <p>Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+  </article>
+
+  <article>
+    <h3>Microsoft Edge</h3>
+    <p>Edge is a free web browser from Microsoft, released in 1995.</p>
+  </article>
+
+  <article>
+    <h3>Mozilla Firefox</h3>
+    <p>Firefox is a free, open-source web browser from Mozilla, released in 2004.</p>
+  </article>
+</main>
+
+<p><strong>Note:</strong> The main tag is not supported in Internet Explorer 11 and earlier versions.</p>
+
+</body>
+</html>
+```
+
+##### span
+The ```html <span>``` tag is an inline container used to mark up a part of a text, or a part of a document.
+
+The ```html <span>``` tag provides no visual change by itself, but when it is marked, you can style it with CSS, or manipulate it with JavaScript.
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The span element</h1>
+
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+</body>
+</html>
+```
+
+#### Navigation(a,href)
+
+###### inbound 
+
+
+###### outer bound
+
+
+-------
 #### HTML Anchor Tag
 
 HTML link is defined with the ```html <a>``` tag (Anchor tag). It is used to give link to any other file, webpage, image etc.
