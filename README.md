@@ -241,11 +241,7 @@ Note: By default, browsers always place a line break before and after the <div>`
 #### Semantic elements:
 
 ##### header
-The ```html <header> element represents a container for introductory content or a set of navigational links.
-A  <header> element typically contains:
-* one or more heading elements(<h1> - <h6>)```
-* logo or icon
-* authorship information
+
 
 
 ##### section
