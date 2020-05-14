@@ -29,7 +29,7 @@ HTML stands for **Hypertext Markup Language** Let's understand each word-
 
 * Create structure of Web Page or Website.
 * It has tags which can help you to optimize the website, to boost the performance and give good results.
-* It is the base of designing and developing web pages, once you understand the basic of HTML then other related technologies like Javascript, CSS, etc become easier to understand.
+* It is the base of designing and developing web pages, once you understand the basic of HTML then other related technologies like     	Javascript, CSS, etc become easier to understand.
 * HTML pages are platform independent and they work on mobile, tabs, desktop, etc.
 * You can create offline pages which can load even with no internet.
 * HTML 5 can give support in enhancing the experience in gaming arena.
@@ -73,7 +73,7 @@ HTML stands for **Hypertext Markup Language** Let's understand each word-
 	<title></title>
 </head>
 <body>
-
+<!-- Write your code here -->
 </body>
 </html> 
 ```
@@ -87,23 +87,11 @@ HTML stands for **Hypertext Markup Language** Let's understand each word-
 <title>: It is used inside <head> and it specifies the title of the document.
 <body>: It contains all the information which will be displayed in the webpage. If you want anything to be displayed on the webpage you have to write it within this tag.
 ```
-```html
-<!DOCTYPE html>
-<html>
-<head> 
-  <!-- In this Head tag you can mention page title name and author details (This is comment line) -->
-	<title>Here you can give title name for page </title>
-</head>
-<body>
-<!-- Write your code here  -->
-</body>
-</html> 
-```
 
 ### HTML Tags
 Every HTML tag has a special meaning to the browser. Each tag performs its own function and helps in creating the proper structure of a web page. You can't create ur own tags, all tags are predefined.
 
-**Syntax:**
+Syntax:
 ```html
 <tag> Content </tag>
 ```
@@ -145,6 +133,7 @@ Unpaired tags do not have a closing tag. These are opened same as paired tags bu
 * Div
 * P
 * Semantic elements
+
 ##### Semantic Elements
 * Header
 * Section
@@ -153,6 +142,7 @@ Unpaired tags do not have a closing tag. These are opened same as paired tags bu
 * Footer
 * Nav
 * Main
+
 ##### Inline elements :
 * Span
 * Img
@@ -167,6 +157,7 @@ Unpaired tags do not have a closing tag. These are opened same as paired tags bu
 Heading tag is used to give headings of particular sizes in a document. There are six different HTML heading tags, which gives different heading sizes and are defined by ```html <h1> to <h6> tags. <h1> gives the largest heading and <h6> gives the smallest one. So <h1> can be used for most important headings and <h6>``` can be used for least important one.
   
 ##### Example for Heading Tags 
+
 ```html
 <!DOCTYPE html>
 <html lang="en"> 
@@ -220,17 +211,11 @@ Note: By default, browsers always place a line break before and after the <div>`
 ```html
 <html>
 <head>
-<style>
-.myDiv {
-  border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;
-}
-</style>
+	<h4>Div tag Example</h4>
 </head>
 <body>
 
-<div class="myDiv">
+<div>
   <h2>This is a heading in a div element</h2>
   <p>This is some text in a div element.</p>
 </div>
@@ -255,6 +240,7 @@ The  <section> tag also supports the Global Attributes in HTML.
 The  <section> ``` tag also supports the Event Attributes in HTML.
 
 ##### Example
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -280,6 +266,7 @@ The HTML ```html <article>``` tag defines an independent self-contained content 
 
 This tag is usually used on blog post, Forum post, comments etc.
 
+##### Example
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -299,14 +286,13 @@ Linus Torvalds is the Father of Linux.</p>
 ##### aside Tag:
 
 The ```html <aside>``` tag defines some content aside from the content it is placed in.
-
 The aside content should be indirectly related to the surrounding content.
+Tip: The ```html<aside> content is often placed as a sidebar in a document.
 
-Tip: The <aside> content is often placed as a sidebar in a document.
-
-Note: The <aside> element does not render as anything special in a browser. However, you can use CSS to style the <aside> element (see example below).
+Note: The <aside> element does not render as anything special in a browser. However, you can use CSS to style the <aside>``` element (see example below).
 
 ##### Example:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -329,6 +315,7 @@ Note: The <aside> element does not render as anything special in a browser. Howe
 The HTML ```html <footer> ``` tag was introduced in HTML 5. It is used to define a footer for a document or a section. It is specifically used for defining footer at the bottom of the webpage.
 
 ##### A Footer element contains:
+
 * Copyright information
 * Contact information
 * Related documents
@@ -336,6 +323,7 @@ The HTML ```html <footer> ``` tag was introduced in HTML 5. It is used to define
 * Sitemap
 
 ##### Example
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -351,6 +339,7 @@ The HTML ```html <footer> ``` tag was introduced in HTML 5. It is used to define
 </html>
 ```
 ###### nav Tag:
+
 The ```html <nav> ``` tag defines a set of navigation links.
 Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links.
 Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.
@@ -376,6 +365,7 @@ Browsers, such as screen readers for disabled users, can use this element to det
 </html>
 ```
 ##### main Tag:
+
 The ```html <main>``` tag specifies the main content of a document.
 
 The content inside the ```html <main>``` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
@@ -417,6 +407,7 @@ Note: There must not be more than one ```html <main> element in a document. The 
 ```
 
 ##### span Tag:
+
 The ```html <span>``` tag is an inline container used to mark up a part of a text, or a part of a document.
 
 The ```html <span>``` tag provides no visual change by itself, but when it is marked, you can style it with CSS, or manipulate it with JavaScript.
@@ -505,7 +496,7 @@ The Image Tag is used to add Images in HTML documents. The HTML ```html <img> ``
 #### HTML Formatting Tags
 HTML Formatting is a process of changing appearance of text for better look and feel than the default text. The formatting tags are used to make text bold, italic, underlined, etc. There are almost 12 options available that how text appears in HTML.
 
-**Some tags are:**
+##### Some tags are:
 ```html
 Bold Text -- <b>
 Italic Text -- <i>
@@ -528,7 +519,8 @@ An HTML table is defined with the ```html <table> ``` tag. A table is used to di
 
 Tables are also used in websites to present any data to the user. It looks really neat and also everyone prefers tabular form of data nowadays. The HTML tables allows to arrange data like text, images, etc. into rows and columns.
 
-Tags of Table:
+##### Tags of Table:
+
 ```html
 <table></table> <!-- Table Main Tag -->
 	<thead></thead> <!--Table Header tags -->
@@ -573,7 +565,8 @@ Tags of Table:
 
 **imp: You can Apply CSS for tables based on your Requirement**
 
-**Example2**
+##### Example2
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -605,7 +598,7 @@ Tags of Table:
 ##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/tab2.PNG?raw=true)
 
-**Example**
+##### Example
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -637,7 +630,7 @@ Tags of Table:
 ##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/tab3.PNG?raw=true)
 
-**You can Apply** 
+##### You can Apply 
 * The 'Cellpadding' and 'Cellspacing' Attribute
 * These "cellpadding" and "Cellspacing" attributes are used to adjust the white spaces in your table cells.
 * colspan,Rowspan attributes
@@ -669,7 +662,8 @@ We can set font size using size attribute.
 ##### Font Face
 You can set font face using face attribute but be aware that if the user viewing the page doesn't have the font installed, they will not be able to see it. Instead user will see the default font style.
 
-**Example**
+##### Example
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -723,7 +717,8 @@ The type attribute is used to change the series type.
 * type="I"	The list items will be numbered with uppercase roman numbers.
 * type="i"	The list items will be numbered with lowercase roman numbers.
 
-**Example:**
+##### Example:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -803,6 +798,7 @@ An HTML form is a section of a document which contains different fields like **t
 HTML Forms can be used where we want to collect some data from the site visitor. For example, in case of user registration you would like to collect information such as **name, email address, Phone number,** etc.
 
 ##### HTML Forms Elements
+
 ```html
 * <form>	It defines an HTML form to enter inputs by the used side.
 * <input>	It defines an input control.
@@ -832,6 +828,7 @@ Syntax:
 ##### 'Input' Element:
 The most important form element is the ```html <input> element. The <input>``` element can be displayed in several ways, depending on the type attribute.
 Syntax: ```html <input type="value">```
+
 ##### HTML```html <input>``` type Attribute:
 
 Attribute_Values --> Value_Description
@@ -888,6 +885,7 @@ Type	Description
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/input1.PNG?raw=true)
 
 ##### Example2:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -1043,7 +1041,7 @@ The ```html <select>``` element defines a drop-down list. It mostly used when yo
 ##### Output
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/select.PNG?raw=true)
 
-##### 'Textarea' Element
+##### Textarea Element
 The ```html <textarea>``` element defines a multi-line input field.
 
 ##### Example
@@ -1067,7 +1065,7 @@ The ```html <textarea>``` element defines a multi-line input field.
 ##### Output:
 ![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/testarea1.PNG?raw=true)
 
-##### Button' Element
+##### Button Element
 The ```html <button>``` element defines a clickable button.
 
 ##### Example
@@ -1197,5 +1195,5 @@ The required attribute is a boolean attribute.
 When present, it specifies that an input field must be filled out before submitting the form.
 Note: The required attribute works with the following input types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
 
-Syntax
-```html <input required>```
+Syntax:
+```html<input required>```
