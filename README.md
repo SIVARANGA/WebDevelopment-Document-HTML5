@@ -186,12 +186,7 @@ en indicates english
 </html>
 ```
 ###### Output
-# This is Heading 1
-## This is Heading 2
-### This is Heading 3
-#### This is Heading 4
-##### This is Heading 5
-###### This is Heading 6
+![Output](https://github.com/SIVARANGA/WebDevelopment-Document-HTML5/blob/master/htags.PNG?raw=true)
 
 
 ##### HTML Paragraph Tag
@@ -442,12 +437,33 @@ The ```html <span>``` tag provides no visual change by itself, but when it is ma
 #### Navigation(a,href)
 
 ###### inbound 
+A navigation bar needs standard HTML as a base.
 
+In our examples we will build the navigation bar from a standard HTML list.
+There are two ways to create a horizontal navigation bar. Using inline or floating list items.
+A navigation bar is basically a list of links, so using the <ul> and <li> elements makes perfect sense:
+	
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<p>Note: We use href="#" for test links. In a real web site this would be URLs.</p>
+
+</body>
+</html>
+```
 
 ###### outer bound
 
 
--------
 #### HTML Anchor Tag
 
 HTML link is defined with the ```html <a>``` tag (Anchor tag). It is used to give link to any other file, webpage, image etc.
@@ -846,7 +862,7 @@ Attribute_Values --> Value_Description
 Here is a list of some common HTML Form input types.
 
 Type	Description
-* **text: **	It defines a one-line text input field.
+* **text:**	It defines a one-line text input field.
 * **password:**	Defines a one-line password input field.
 * **submit:**	It specifies a submit button to submit the form to server.
 * **reset:**	The reset button reset all values in the form.
