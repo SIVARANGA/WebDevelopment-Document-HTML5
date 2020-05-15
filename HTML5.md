@@ -95,6 +95,7 @@ Syntax:
 ```html
 <tag> Content </tag>
 ```
+Different Types of Tags Avaiable in HTML5 ![Click here A-Z Tags in HTML](https://www.w3schools.com/tags/tag_comment.asp)
 
 #### Types of Tags
 * Paired Tags
